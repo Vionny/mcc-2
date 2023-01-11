@@ -1,10 +1,11 @@
 const mysql = require("mysql");
 
 const connection = mysql.createConnection({
-  host: "localhost",
+  host: "containers-us-west-47.railway.app",
   user: "root",
-  password: "",
-  database: "database_films",
+  password: "pgSZrfdk7E5FHAbXq2lU",
+  database: "railway",
+  host: "6003"
 });
 
 connection.connect();
